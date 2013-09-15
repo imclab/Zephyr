@@ -1,0 +1,50 @@
+Ship Select
+	Base stat differences
+Upgrade slots on ship
+Diablo style upgrade pieces with highly randomized stats
+Enemies can be 'looted' to find new parts
+Money
+Weapon Upgrades
+Armor Upgrades
+Limited range weapons
+Health Upgrades
+Shields
+Absorption of bullets to transfer into health/ammo/money/etc...
+Superweapon with limited activations (Bomb/Laser/Nuke/etc...)
+Bosses
+Stage distance meter
+Mini-games
+Shop to purchase mini-powerups (inApp/inGame purchases)
+Move through enemies, but not bullets (move through solids, but not hollow?)
+Defensive wave (temp shield that destroys/abosorbs/reflects bullets)
+Auto-fire primary weapons
+Powerups
+	Ship Shield
+	Laser damage
+	Reload speed
+	Ship speed
+	Auto-repair
+	Extra laser
+		Front
+		Back
+		Sides
+		Front Corners
+		Back Corners
+	Defensive wave
+		Size/range
+		Power
+		Reload speed
+	Additional weapons
+		Auto-turrets
+		Missile pods
+		Rail Guns
+		Auto-Phasers
+Collect money or not
+	Money magnet?
+	Auto-collect?
+	Ship touches?
+Mission select
+	Replay missions to grind?
+Any ability an enemy/boss has, the player can earn/learn/upgrade to get/use
+Charge up shots
+Slow-Motion powerup

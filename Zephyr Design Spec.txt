@@ -1,0 +1,245 @@
+Overview
+	Purpose
+		This document specifies the requirements for ‘Zephyr’, an HTML5 game being developed by Blackmodule Studio.
+
+	Title and Genre
+		‘Zephyr’ is Blackmodule Studio’s sci-fi space shoot 'em up.
+
+	Game Concept
+		'Zephyr' is a classic shoot em up blended with RPG/adventure concepts. The game will partially take place in an 'overworld map' which will be of the galaxy the game takes place in. While travelling in this galaxy view, the player can explore; finding hidden locations and anomalies, shopping for upgrades at space stations, or even receiving new missions from NPCs. These missions are where all of the fighting in the game takes place. The missions will be a 'Bullet Hell' style setting in vertical scrolling levels. The player can control the movement of the character, and use of special weapons and/or abilities. The player has  auto-turret weapons that are set to auto-fire. While in this mode, the player will generally be attempting to avoid enemy fire, as well as destroy enemy ships. When an enemy ship is destroyed, it will generally drop money, though it may occasionally drop a powerup or other loot. Depending on the mission at hand, the player will have specific objectives to accomplish, and depending on the result determines if they successessfully accomplish their mission.
+
+	Storyline
+		In the year 3045 the drone wars have left the Terran fleet scattered across the known galaxy. Earth was lost to the drones, and the human race was nearly wiped out. Now, rebuilding has begun, but there are new dangers out in deep space. There isn't much left of the fleet, but they must defend what's left, or all will be lost.
+
+	Key objective
+		Defeat alien commander. Perform missions to level up and upgrade you ship. Explore space, finding new technologies to aid in defending the Terran fleet.
+
+	Game World
+		The game world consists of an 'overworld' screen representing the current sector of the galaxy you are in. There are also 'mission' scenes in which the majority of gameplay will take place.
+
+	Game Features
+		The game will feature a hybrid of Bullet Hell style gameplay with classic RPG action. A fast paced shooter during missions, while allowing progression through upgrades to the ship, as well as new abilities learned through leveling up.
+
+Technology
+	Engine
+		Scorch.js is the HTML5 framework being utilized for this project
+	IDE
+		SublimeText2 is the IDE/text editor used for all scripting.
+	Language
+		Javascript is primarily the language used to write the game.
+		HTML5 is used for rendering the game to the browser.
+	Sprites
+		Paint.net is the tool used to create game sprites.
+	Background
+		Paint.net is the tool used to create game background.
+	SFX
+		???
+	BGM
+		???
+
+Asset management
+	Formats
+		Sprites
+			File format of .png will be used
+		Background
+			File format of .png will be used
+		SFX
+			???
+		BGM
+			???
+
+Equipment
+	Primary Weapons
+		Cannon - Single shot, directly in front
+		Twin Cannon - Dual shot, directly in front
+		Spread Cannon - 3 shot+, cone in front
+		Disruptor - Wave weapon, directly in front
+	Secondary Weapons
+		Torpedo - Launches torpedoes, which can later be upgraded to different effects, such as homing, etc...
+		Beam - Beam weapon, directly in front
+	Passive Weapons
+		Turret - Auto-firing guns on ship
+			Side Turrets - Single shot, diagonal front right/left
+			Rear Turret - Single shot, directly behind
+		Phaser - Beam weapon, tracks enemies in range on sides
+	Active Defense
+		Disruptor Shield - Emits a disruption shield a circle that nullifies incoming rounds.
+		???
+	Passive Defense
+		Shield - All encompassing forcefield surrounding player
+		Deflector - Directional shields that 'push' incoming physical rounds to the left/right of the player
+	Movement
+		Thruster - Propels player forward, with boost option
+		Side Thruster - Shifts player to the left and right at quicker speeds
+	Energy
+		Generator - Recovers energy
+		Capacitor - Stores reserve energy
+	Accessory
+		Sensor - Detect enemies with power-ups, incoming enemy types, etc...
+		Tractor Beam - Scavenge (loot) items from destroyed enemy vehicles
+		Cargo Bay - Capacity of the ship (inventory space)
+		Engine Coolant - Cools engines heat levels
+		Time Acceleration Drive - Increases the relative speed of time for the ship, giving a slow motion feeling to surrounding entities.
+
+Upgrades
+	Primary Weapons
+		Cannon
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+		Twin Cannon
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+		Spread Cannon
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+		Disruptor
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+	Secondary Weapons
+		Torpedo
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+			LockOnTime--
+		Laser
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+	Passive Weapons
+		Turret
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+			LockOnTime--
+		Phaser
+			Damage++
+			RoF++
+			Accuracy++
+			Capacity++
+			Energy--
+			Overheat--
+			LockOnTime--
+	Active Defense
+		???
+		???
+	Passive Defense
+		Hull
+			Damage--
+			RepairRate++
+			Capacity++
+		Shield
+			Damage--
+			RechargeRate++
+			Capacity++
+			Energy--
+			Overheat--
+		Deflector
+			Deflection++
+			RechargeRate++
+			Capacity++
+			Energy--
+			Overheat--
+	Movement
+		Thruster
+			Speed++
+			Responsiveness++
+			Energy--
+			Overheat--
+			Boost++
+		Side Thruster
+			Speed++
+			Responsiveness++
+			Energy--
+			Overheat--
+			Boost++
+	Energy
+		Generator
+			RechargeRate++
+			Overheat--
+		Capacitor
+			MaxEnergy++
+			Overheat--
+	Accessory
+		Sensor
+			Range++
+			Energy--
+			Overheat--
+		Tractor Beam
+			Range++
+			Energy--
+			Overheat--
+		Cargo Bay
+			Capacity++
+		Engine Coolant
+			CoolRate++
+			Energy--
+
+Skills
+	Targetting - Decreases round dispersion, therefore increasing accuracy
+	Overload - Push your ships energy past the max for a short duration
+	Charge Up - Your primary weapons can be charged up for a powerful blast
+
+Powerups
+	Hull repair
+	Shield Recharge
+	Energy Recharge
+
+Locations
+	
+Characters
+	Player
+		Human space fighter pilot
+
+	Enemies
+		Alien ships
+			
+Environment design
+	Mission scenes will consist of space backgrounds featuring stars, nebula gas clouds, asteroid fields, and planets.
+	Overworld scene will be a greater zoomed out view than the mission scenes, and will be of space, featuring destinations such as space stations, asteroid mining colonies, and planets.
+
+Gameplay
+	Primary gameplay will be in the mission scenes in which a 'Bullet-Hell' style of gameplay will occur. Fast paced shooting to destroy enemies, and quick movement to avoid the barrage of enemy fire. As the player completes missions, they will receive experience as well as currency. Currency will be used in space stations and other such destinations in order to upgrade the players ship. Experience is used to unlock abilities of the player, these will be things such as movement techniques, and special abilities. Experience will also be used to unlock higher tier equipment as it is reflective of the players general reputation.
+
+	In the overworld scenes, the player will not be combatting enemies, but will be exploring, travelling the sector of space, finding hidden locations, gearing up at space stations, and accepting new missions to earn their keep.
+
+User Interface
+	The user interface will primarily be menu-based
+	HUD will display basic information, such as hull points, and shield, but will be minimalistic
+
+Game Controls
+	W - Forward
+	A - Left
+	S - Backward
+	D - Right
+	Space - Secondary fire
+
+Appendices
+	A: Art Checklist
+	B: Sound Checklist
+	C: Coding Checklist
+	D: Asset Checklist
